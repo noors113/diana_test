@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "test-diana"
+version = "0.1.0"
+description = ""
+authors = ["Nursultan Ergeshov <jackmovies01@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.2.7"
+djangorestframework = "^3.14.0"
+django-filter = "^23.3"
+factory-boy = "^3.3.0"
+django-environ = "^0.11.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.11.0"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
